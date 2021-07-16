@@ -1,0 +1,11 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "settings": {
+    "editor.formatOnSaveTimeout": 2500,
+  },
+  "service": "app",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "eamodio.gitlens"
+  ]
+}

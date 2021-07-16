@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+    container_name: aws-cdk-training
+    image: aws-cdk-training
+    tty: true
+    stdin_open: true
+    user: root
+    working_dir: /app
+    network_mode: host
+    volumes:
+      - .:/app:delegated
+      - "${HOME}/.gitconfig:/root/.gitconfig"
+      - "${HOME}/.aws:/root/.aws"
