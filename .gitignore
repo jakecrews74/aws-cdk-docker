@@ -1,0 +1,8 @@
+node_modules
+cdk-workship
+
+certificate.pkcs12
+server.crt
+server.key
+
+!devcontainer.json
