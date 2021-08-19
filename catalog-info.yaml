@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-cdk-docker
+  annotations:
+    github.com/project-slug: jakecrews74/aws-cdk-docker
+spec:
+  type: other
+  lifecycle: unknown
+  owner: backstage
